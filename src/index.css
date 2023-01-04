@@ -89,6 +89,7 @@ Buttons
   background: transparent;
   border-radius: var(--mainBorderRadius);
   display: inline-block;
+  outline-offset: 4px !important;
 }
 .btn:hover {
   background: var(--primaryColor);
@@ -212,7 +213,6 @@ Plant List
   text-align: center;
   margin-bottom: 3.5rem;
   margin-top: 1rem;
-  text-decoration: underline;
 }
 .plant-center {
   width: var(--smallWidth);
